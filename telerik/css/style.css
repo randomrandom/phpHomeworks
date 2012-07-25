@@ -1,0 +1,49 @@
+/*  Reset for some default browser CSS - General */
+body, div, h1, h2, h3, p, ul, ol, li, img, header, section, aside, footer, button {
+	margin: 0; padding: 0; border: 0; list-style: none;
+}
+
+header {
+	height: 75px;
+	background-color: #00ccff;
+}
+
+header nav {
+	background-color: #aaffcc;
+}
+
+section#top {
+	height: 255px;
+	background-color: #ffaacc;
+}
+
+section#bottom {
+	height: 220px;
+	background-color: #2d3134;
+}
+
+section#bottom h3 {
+	font: 24px;
+	background-color: #2d3134;
+}
+
+section#bottom ul {
+	width: 820px;
+	background-color: #2d3134;
+}
+
+section#bottom ul li {
+	display: block;
+	float: left;
+	height: 120px;
+	width: 120px;
+	background-color: #2d3134;
+}
+
+/*  */
+footer {
+	height: 48px;
+	background-color: #24282c;
+	border: 1px solid #383c40;
+	border-width: 1px 0 0 0;
+}
